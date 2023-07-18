@@ -1,6 +1,7 @@
 import React from "react";
 import Detalhes from "../components/contato/detalhesContato";
 import FormularioContato from "../components/contato/formularioContato";
+import { motion } from "framer-motion";
 
 function Formulario() {
   return (
