@@ -25,6 +25,8 @@ const ProjectsGrid = () => {
         <h3
           className="font-general-regular 
                         text-center text-cool-black-100
+                        mb-5
+                        lg:mb-0
                         text-sm
                         sm:text-xl
                         ">
@@ -38,6 +40,7 @@ const ProjectsGrid = () => {
                         dark:border-secondary-dark
                         pb-3
                         gap-3
+                        mb-5
                         ">
           <div className="flex justify-between gap-2">
             <span
@@ -52,6 +55,7 @@ const ProjectsGrid = () => {
                                 rounded-xl
                                 cursor-pointer
                                 group
+                                mb-4
                                 ">
               <FiSearch className="text-cool-black-400 dark:text-ternary-light w-5 h-5 group-hover:text-cool-black-100 ease-linear duration-150"></FiSearch>
             </span>
@@ -62,8 +66,10 @@ const ProjectsGrid = () => {
               className="
                                 pl-3
                                 pr-1
+                                mb-4
                                 sm:px-4
                                 py-2
+                                w-48
                                 border 
                                 border-transparent
                                 dark:border-secondary-dark
@@ -92,7 +98,7 @@ const ProjectsGrid = () => {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
+        <div className="grid grid-cols-1 place-items-center gap-y-4	 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10">
           {selectProject
             ? selectProjectsByCategory.map((project) => (
                 <ProjectSingle

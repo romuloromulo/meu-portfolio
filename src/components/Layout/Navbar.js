@@ -78,7 +78,8 @@ function NavbarC() {
         variant="small"
         className="p-1 font-medium text-sm sm:text-base  text-dim-gray hover:text-cool-black-100">
         <HashLink
-          href="#"
+          smooth
+          to="/#Contato"
           id="style-2"
           data-replace="// contato"
           className={`flex items-center ${classes.linkNav}`}>

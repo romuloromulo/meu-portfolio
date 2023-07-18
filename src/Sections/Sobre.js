@@ -12,7 +12,7 @@ function Sobre() {
           </h1>
         </div>
         <div className="w-4/5 flex flex-col justify-center items-center mt-10 group">
-          <div className="border p-14 rounded-tl-2xl rounded-br-2xl border-cool-black-300 sm:rounded-r-full sm:rounded-b-full sm:group-hover:rounded-l-full group-hover:rounded-tr-none ease-in duration-300">
+          <div className="border p-14 rounded-tl-2xl rounded-br-2xl border-cool-black-300 sm:rounded-r-full sm:rounded-b-full sm:group-hover:rounded-l-full  ease-in duration-300">
             <p className="text-dim-gray ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
               quis mollis mauris. Donec tristique magna quis ligula sagittis

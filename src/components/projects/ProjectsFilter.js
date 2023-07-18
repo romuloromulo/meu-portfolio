@@ -8,8 +8,11 @@ const ProjectsFilter = ({ setSelectProject }) => {
       }}
       className="font-general-medium 
                 px-8
+                mb-4
                 sm:px-6
                 py-2
+                w-2/5
+                sm:w-48
                 border
                 border-cool-black-300
                 dark:border-secondary-dark
