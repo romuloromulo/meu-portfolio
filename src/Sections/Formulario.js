@@ -7,7 +7,7 @@ function Formulario() {
   return (
     <section
       id="Contato"
-      className="container mx-auto flex gap-28 justify-center">
+      className="container mx-auto flex gap-28 md:flex-row flex-col justify-center">
       <FormularioContato />
       <Detalhes />
     </section>

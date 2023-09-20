@@ -1,19 +1,19 @@
 import React from "react";
 import {
   BiLogoReact,
-  BiLogoCss3,
   BiLogoHtml5,
   BiLogoJavascript,
   BiLogoTailwindCss,
   BiLogoGithub,
   BiLogoTypescript,
   BiLogoFirebase,
-  BiLogoMongodb,
 } from "react-icons/bi";
+import { RiSupabaseLine } from "react-icons/ri";
+import { SiNextdotjs } from "react-icons/si";
 
 const tecData = [
   { id: 1, logo: <BiLogoJavascript />, title: "JavaScript" },
-  { id: 2, logo: <BiLogoCss3 />, title: "CSS" },
+  { id: 2, logo: <SiNextdotjs />, title: "Next.js" },
   { id: 3, logo: <BiLogoHtml5 />, title: "HTML" },
   {
     id: 4,
@@ -33,7 +33,7 @@ const tecData = [
     logo: <BiLogoFirebase />,
     title: "Firebase",
   },
-  { id: 10, logo: <BiLogoMongodb />, title: "MongoDB" },
+  { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
 ];
 
 const tecnologias = tecData.map((tecnologia) => (
@@ -56,7 +56,7 @@ const Habilidades = () => {
     <section className="container h-1/2 mx-auto">
       {" "}
       <div className=" w-full p-5 mt-6 flex flex-col justify-center items-center">
-        <p className=" text-dim-gray-100 text-2xl md:text-3xl font-medium  underline decoration-1  decoration-[#efeff555] underline-offset-8 mb-8 mt-4">
+        <p className=" text-dim-gray text-2xl md:text-3xl font-medium  underline decoration-1  decoration-[#efeff555] underline-offset-8 mb-8 mt-4">
           Habilidades
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-x-10 gap-y-6 mb-10">

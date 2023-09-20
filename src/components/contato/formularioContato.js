@@ -14,7 +14,7 @@ const FormularioContato = () => {
 
     setEnviar("Enviando... ");
     setStyleButton(
-      "text-cool-black-300 bg-indigo-200  hover:bg-indigo-600 focus:ring-indigo-900"
+      "text-cool-black-300 bg-indigo-200 border-indigo-200 focus:ring-indigo-900"
     );
 
     emailjs
@@ -22,7 +22,7 @@ const FormularioContato = () => {
         "service_8pwnevy",
         "template_bueqi1d",
         form.current,
-        "7nsUQEWBczrTywy5f"
+        "7nsUQEWBczrTywy5fl"
       )
       .then(
         (result) => {
@@ -30,7 +30,7 @@ const FormularioContato = () => {
             setTimeout(() => {
               setEnviar("ok!");
               setStyleButton(
-                "bg-green-500 text-black  hover:bg-green-700 focus:ring-green-900 "
+                "bg-green-500 text-black  hover:bg-green-700 focus:ring-green-900"
               );
               e.target.reset();
             }, 2000);
@@ -60,7 +60,7 @@ const FormularioContato = () => {
           ref={form}
           onSubmit={sendEmail}
           className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left">
-          <p className="font-general-medium text-dim-gray dark:text-primary-light text-3xl mb-8 underline underline-offset-4 ">
+          <p className="font-general-medium text-dim-gray dark:text-primary-light text-3xl decoration-2 decoration-cool-black-200 mb-8 underline underline-offset-4 ">
             Me manda uma mensagem!
           </p>
           <FormInput

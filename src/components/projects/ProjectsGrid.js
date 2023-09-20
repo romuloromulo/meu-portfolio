@@ -14,10 +14,11 @@ const ProjectsGrid = () => {
     setSelectProject,
     selectProjectsByCategory,
   } = useContext(ProjectsContext);
+
   return (
     <section className="py-5 sm:py-10 mt-8 sm:mt-14">
       <div className="text-center">
-        <p className="text-dim-gray-100 text-2xl md:text-3xl font-medium  underline decoration-1 decoration-[#efeff555] underline-offset-8 mb-4">
+        <p className="text-dim-gray text-2xl md:text-3xl font-medium  underline decoration-1 decoration-[#efeff555] underline-offset-8 mb-4">
           Portfólio de Projetos
         </p>
       </div>
@@ -105,7 +106,10 @@ const ProjectsGrid = () => {
                   title={project.title}
                   category={project.category}
                   image={project.img}
+                  description={project.description}
                   key={project.id}
+                  linkSite={project.linkSite}
+                  linkGit={project.linkGit}
                 />
               ))
             : searchProject
@@ -114,7 +118,10 @@ const ProjectsGrid = () => {
                   title={project.title}
                   category={project.category}
                   image={project.img}
+                  description={project.description}
                   key={project.id}
+                  linkSite={project.linkSite}
+                  linkGit={project.linkGit}
                 />
               ))
             : projects.map((project) => (
@@ -122,7 +129,10 @@ const ProjectsGrid = () => {
                   title={project.title}
                   category={project.category}
                   image={project.img}
+                  description={project.description}
                   key={project.id}
+                  linkSite={project.linkSite}
+                  linkGit={project.linkGit}
                 />
               ))}
         </div>
