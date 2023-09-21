@@ -13,7 +13,9 @@ const ProjectSingle = ({
   return (
     <div className={`card w-2/3 sm:h-[34rem] sm:w-4/5 rounded-md `}>
       <div className={`image rounded-md`}>
-        <img src={image} />
+        <div className="overflow-hidden h-[30%]">
+          <img src={image} className="h-auto" />
+        </div>
         <div className="flex flex-col justify-center items-center p-3 sm:mt-3">
           <p className="text-cool-black-600 font-bold text-xl">{title}</p>
           <p className="font-bold text-cool-black-400 border-b border-cool-black-200">

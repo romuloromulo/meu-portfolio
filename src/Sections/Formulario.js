@@ -5,12 +5,18 @@ import { motion } from "framer-motion";
 
 function Formulario() {
   return (
-    <section
-      id="Contato"
-      className="container mx-auto flex gap-28 md:flex-row flex-col justify-center">
-      <FormularioContato />
-      <Detalhes />
-    </section>
+    <motion.div
+      initial={{ opacity: 0, x: -100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -100 }}
+      transition={{ duration: 0.5 }}>
+      <section
+        id="Contato"
+        className="container mx-auto flex gap-28 md:flex-row flex-col justify-center">
+        <FormularioContato />
+        <Detalhes />
+      </section>
+    </motion.div>
   );
 }
 

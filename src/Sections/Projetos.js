@@ -4,7 +4,7 @@ import ProjectsGrid from "../components/projects/ProjectsGrid";
 const Projetos = () => {
   return (
     <ProjectsProvider>
-      <section id="Portfolio" className="container mx-auto lg:h-[73rem]">
+      <section id="Portfolio" className="container mx-auto lg:h-auto">
         <ProjectsGrid />
         <div className="w-2/3 border-b mx-auto border-cool-black-200"></div>
       </section>

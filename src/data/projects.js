@@ -1,7 +1,6 @@
-import MobileImage2 from "../images/mobile-project-2.jpg";
-
-// Import images
 import TotalPizzaImage from "../images/TOTALPIZZAIMG.png";
+import MapTreino from "../images/MapTreino.png";
+import Forkify from "../images/FORKIFY.png";
 
 export const projectsData = [
   {
@@ -10,7 +9,7 @@ export const projectsData = [
     category: "Web Application",
     img: TotalPizzaImage,
     description:
-      "Site de pizzaria fictícia costruido usando Next.js 13 e Supabase como o backend. Oferece um sistema completo de gerenciamento de cardápio e pedidos. Possui Stripe integrado para processamento de pagamentos seguros e convenientes. O design, criado com detalhes minuciosos, é estilizado usando o Tailwind CSS. O site é completamente responsivo, garantindo uma ótima experiência em dispositivos móveis e desktops.",
+      "Site de pizzaria fictícia costruido usando Next.js 13 e Supabase como o backend. Oferece um sistema completo de gerenciamento de cardápio, pedidos e login. Possui Stripe integrado para processamento de pagamentos seguros e convenientes. O design, criado com detalhes minuciosos, é estilizado usando o Tailwind CSS. O site é completamente responsivo, garantindo uma ótima experiência em dispositivos móveis e desktops.",
     linkSite: "https://totalpizza.vercel.app/",
     linkGit: "https://github.com/romuloromulo/TOTALPIZZA",
     ProjectHeader: {
@@ -21,34 +20,32 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Phoenix Digital Agency",
-    category: "Mobile Application",
-    img: MobileImage2,
+    title: "MapTreino",
+    category: "Web Application",
+    img: MapTreino,
+    description:
+      "Site para catalogar os lugares em que você treinou num mapa interativo, com parametros de duração, distância, cadência e ganho de elevação. Apenas clique no mapa no lugar que praticou o treino e adicione as informações. Feito com JavaScript puro e CSS.",
+    linkSite: "https://maptreino.vercel.app/",
+    linkGit: "https://github.com/romuloromulo/MapTreino",
+    ProjectHeader: {
+      title: "MAPTREINO - mapeie seus treinos",
+      publishDate: "30 de Agosto de 2023",
+      tags: "UI / Frontend",
+    },
+  },
+  {
+    id: 3,
+    title: "Forkify",
+    category: "Web Application",
+    img: Forkify,
+    description:
+      "Aplicativo de busca de receitas com os mais varíados tipos de comida. É alimentado por uma API que contém todos os dados. Projeto feito durante o curso de JavaScript e webdesign do Jonas Schmedtmann",
+    linkSite: "https://forkify-tau.vercel.app/",
+    linkGit: "https://github.com/romuloromulo/forkify-course-project",
+    ProjectHeader: {
+      title: "Forkify - Ache sua receita favorita",
+      publishDate: "30 de Agosto de 2023",
+      tags: "UI / Frontend",
+    },
   },
 ];
-// 	{
-// 	{
-// 		id: 3,
-// 		title: 'Project Management UI',
-// 		category: 'UI/UX Design',
-// 		img: UIImage1,
-// 	},
-// 	{
-// 		id: 4,
-// 		title: 'Cloud Storage Platform',
-// 		category: 'UI/UX Design',
-// 		img: UIImage2,
-// 	},
-// 	{
-// 		id: 5,
-// 		title: 'React Social App',
-// 		category: 'Mobile Application',
-// 		img: MobileImage1,
-// 	},
-// 	{
-// 		id: 6,
-// 		title: 'Apple Design System',
-// 		category: 'Web Application',
-// 		img: WebImage1,
-// 	},
-// ];
