@@ -1,6 +1,7 @@
 import TotalPizzaImage from "../images/TOTALPIZZAIMG.png";
 import MapTreino from "../images/MapTreino.png";
 import Forkify from "../images/FORKIFY.png";
+import MyRecipes from "../images/MyRecipe.png";
 
 export const projectsData = [
   {
@@ -44,6 +45,21 @@ export const projectsData = [
     linkGit: "https://github.com/romuloromulo/forkify-course-project",
     ProjectHeader: {
       title: "Forkify - Ache sua receita favorita",
+      publishDate: "30 de Agosto de 2023",
+      tags: "UI / Frontend",
+    },
+  },
+  {
+    id: 4,
+    title: "MyRecipes",
+    category: "Mobile Application",
+    img: MyRecipes,
+    description:
+      "Aplicativo de celular de busca de diferentes receitas dividas por categorias, utilizando as ferramentas de redux e react navigation. Feito no React Native usando a plataforma Expo Go.",
+    linkSite: null,
+    linkGit: "https://github.com/romuloromulo/myrecipes-app",
+    ProjectHeader: {
+      title: "MyRecipes",
       publishDate: "30 de Agosto de 2023",
       tags: "UI / Frontend",
     },

@@ -54,7 +54,7 @@ const FormularioContato = () => {
   };
 
   return (
-    <div className="lg:w-1/2">
+    <div className="lg:w-1/2 sm:w-full">
       <div className="leading-loose ">
         <form
           ref={form}

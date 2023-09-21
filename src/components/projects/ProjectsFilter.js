@@ -1,4 +1,4 @@
-const selectOptions = ["Web Application", "Mobile Application", "UI/UX Design"];
+const selectOptions = ["Web Application", "Mobile Application"];
 
 const ProjectsFilter = ({ setSelectProject }) => {
   return (
@@ -25,6 +25,7 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 text-primary-dark
                 dark:text-ternary-light
                 text-dim-gray-100
+                block
             ">
       <option value={setSelectProject} className="text-sm sm:text-md">
         Geral

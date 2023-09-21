@@ -88,24 +88,10 @@ function NavbarC() {
       </Typography>
     </ul>
   );
-  //z-10 border-transparent rounded-b-md rounded-t-none   mt-10 flex justify-between items-center p-0 md:rounded-lg fixed  py-5 shadow-none w-auto md:w-2/5  bg-cool-black-700  lg:block border border-cool-black-200 lg:bg-transparent md:h-20
+
   return (
-    <Navbar className="z-10 border-transparent rounded-b-md rounded-t-none fixed shadow-none w-2/5 lg:w-[44%] bg-cool-black-300 lg:rounded-full lg:bg-opacity-20 lg:border lg:border-cool-black-200  lg:bg-cool-black-700 lg:h-20 lg:mt-8 lg:flex lg:flex-col lg:items-center lg:justify-center">
+    <Navbar className="z-10 border-transparent rounded-b-md rounded-t-none fixed shadow-none w-full lg:w-[54%] bg-cool-black-300 lg:rounded-full lg:bg-opacity-20 lg:border lg:border-cool-black-200  lg:bg-cool-black-700 lg:h-20 lg:mt-8 lg:flex lg:flex-col lg:items-center lg:justify-center">
       <div className="flex  items-center shadow-none lg:justify-center  lg:items-center lg:mt-2">
-        {/* <div className="">
-          <Typographyhidden
-            as="a"
-            href="#"
-            className="cursor-pointer text-sm font-bold  text-dim-gray">
-            Rômulo Viana
-          </Typographyhidden>
-          <Typography
-            as="a"
-            href="#"
-            className="cursor-pointer text-sm font-normal  text-dim-gray">
-            Desenvolvedor front-end
-          </Typography>
-        </div> */}
         <div className="flex items-center gap-4">
           <div className="relative hidden rounded-lg lg:block">{navList}</div>
 

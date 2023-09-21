@@ -34,12 +34,16 @@ const ProjectSingle = ({
               <p className="text-cool-black-500">{category}</p>
             </h1>
             <div className="flex flex-col items-start justify-center text-cool-black-500 ">
-              <a
-                className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
-                href={linkSite}
-                target="_blank">
-                <BsArrowUpRight size={15} /> Live
-              </a>
+              {linkSite ? (
+                <a
+                  className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
+                  href={linkSite}
+                  target="_blank">
+                  <BsArrowUpRight size={15} /> Live
+                </a>
+              ) : (
+                ""
+              )}
               <a
                 className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
                 href={linkGit}
