@@ -8,8 +8,6 @@ import {
 import { HashLink } from "react-router-hash-link";
 import classes from "./navbar.module.css";
 
-//h-full w-full relative hidden mt-5 py-3 px-5 bg-opacity-90 rounded-lg bg-cool-black-700 lg:block border border-cool-black-200
-
 function NavbarC() {
   const [openNav, setOpenNav] = useState(false);
 
@@ -20,9 +18,7 @@ function NavbarC() {
     );
     console.log(window.innerWidth);
   }, []);
-  {
-    /* <a href="#" id="style-2" data-replace="this link"><span>this link</span></a></p> */
-  }
+
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -140;
@@ -30,11 +26,11 @@ function NavbarC() {
   };
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center z-2 lg:gap-6">
+    <ul className="mb-4 mt-2 flex flex-col lg:mb-0 lg:mt-0 lg:flex-row lg:items-center  z-2 lg:gap-6">
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-sm sm:text-base text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium text-md text-dim-gray hover:text-cool-black-100">
         <HashLink
           smooth
           to="/#Home"
@@ -47,7 +43,7 @@ function NavbarC() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-sm sm:text-base  text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium  text-md  text-dim-gray hover:text-cool-black-100">
         <HashLink
           smooth
           scroll={(el) => scrollWithOffset(el)}
@@ -61,7 +57,7 @@ function NavbarC() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-sm sm:text-base  text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium text-dim-gray text-md hover:text-cool-black-100">
         <HashLink
           smooth
           scroll={(el) => scrollWithOffset(el)}
@@ -76,7 +72,7 @@ function NavbarC() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-sm sm:text-base  text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium  text-dim-gray text-md hover:text-cool-black-100">
         <HashLink
           smooth
           to="/#Contato"
@@ -90,14 +86,14 @@ function NavbarC() {
   );
 
   return (
-    <Navbar className="z-10 border-transparent rounded-b-md rounded-t-none fixed shadow-none w-full lg:w-[54%] bg-cool-black-300 lg:rounded-full lg:bg-opacity-20 lg:border lg:border-cool-black-200  lg:bg-cool-black-700 lg:h-20 lg:mt-8 lg:flex lg:flex-col lg:items-center lg:justify-center">
+    <Navbar className="z-10 border-transparent rounded-b-md rounded-t-none fixed shadow-none  w-48 lg:w-[55%] bg-cool-black-300 lg:rounded-full lg:bg-opacity-20 lg:border lg:border-cool-black-200  lg:bg-cool-black-700 lg:h-20 lg:mt-8 lg:flex lg:flex-col lg:items-center lg:justify-center">
       <div className="flex  items-center shadow-none lg:justify-center  lg:items-center lg:mt-2">
         <div className="flex items-center gap-4">
           <div className="relative hidden rounded-lg lg:block">{navList}</div>
 
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className=" h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}>
             {openNav ? (

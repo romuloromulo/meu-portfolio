@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Sections/Header";
-import React from "react";
+import React, { useEffect } from "react";
 import Sobre from "./Sections/Sobre";
 import Habilidades from "./Sections/Habilidades";
 import Projetos from "./Sections/Projetos";
@@ -9,6 +9,9 @@ import Formulario from "./Sections/Formulario";
 import AppFooter from "./Sections/Footer";
 
 function App() {
+  useEffect(() => {
+    document.title = "Portfólio Rômulo";
+  }, []);
   return (
     <BrowserRouter>
       <div className="bg-cool-black-800">

@@ -12,7 +12,7 @@ function Sobre() {
           </h1>
         </div>
         <div className="w-4/5 flex flex-col justify-center items-center mt-10 group">
-          <div className="border p-14  rounded-lg border-cool-black-300  ">
+          <div className="border p-4 sm:p-8 md:p-10  lg:p-14  rounded-lg border-cool-black-300  ">
             <p className="text-dim-gray ">
               Olá! Meu nome é <b>Rômulo</b>, e sou um apaixonado desenvolvedor
               front-end com um pouco mais de um ano de experiência no mundo da
