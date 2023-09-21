@@ -18,7 +18,7 @@ const ProjectSingle = ({
         </div>
         <div className="flex flex-col justify-center items-center p-3 sm:mt-3">
           <p className="text-cool-black-600 font-bold text-xl">{title}</p>
-          <p className="font-bold text-cool-black-400 border-b border-cool-black-200">
+          <p className="font-bold text-cool-black-400 border-b border-cool-black-200 mb-2">
             {category}
           </p>
           <p className="text-sm font-semibold text-cool-black-700">
@@ -53,11 +53,6 @@ const ProjectSingle = ({
                 <BsGithub size={17} /> Repositório Git
               </a>
             </div>
-            {/* <ul className="flex">
-              {tecnologias?.map((tec) => {
-                <li>{tec}</li>;
-              })}
-            </ul> */}
           </div>
         </div>
       </div>
