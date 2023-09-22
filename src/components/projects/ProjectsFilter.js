@@ -1,4 +1,4 @@
-const selectOptions = ["Web Application", "Mobile Application"];
+const selectOptions = ["Web App", "Mobile App"];
 
 const ProjectsFilter = ({ setSelectProject }) => {
   return (
