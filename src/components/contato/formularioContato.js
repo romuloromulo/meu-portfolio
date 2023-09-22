@@ -34,6 +34,12 @@ const FormularioContato = () => {
               );
               e.target.reset();
             }, 2000);
+            setTimeout(() => {
+              setEnviar("Enviar");
+              setStyleButton(
+                "bg-indigo-500 text-white hover:bg-indigo-600 focus:ring-indigo-900 "
+              );
+            }, 4000);
           }
         },
         (error) => {
@@ -44,13 +50,6 @@ const FormularioContato = () => {
           }, 2000);
         }
       );
-
-    setTimeout(() => {
-      setEnviar("Enviar");
-      setStyleButton(
-        "bg-indigo-500 text-white hover:bg-indigo-600 focus:ring-indigo-900 "
-      );
-    }, 4000);
   };
 
   return (
