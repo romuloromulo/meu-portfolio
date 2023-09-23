@@ -21,7 +21,7 @@ const ProjectSingle = ({
           <p className="font-bold text-cool-black-400 border-b border-cool-black-200 mb-2">
             {category}
           </p>
-          <p className="text-sm font-semibold text-cool-black-700">
+          <p className="sm:text-sm text-xs  font-semibold text-cool-black-700">
             {description}
           </p>
         </div>

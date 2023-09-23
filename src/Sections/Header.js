@@ -58,7 +58,7 @@ function Header() {
           className={`container mx-auto md:flex-col md:flex lg:items-center`}>
           <NavbarC />
           <div className="flex flex-col items-center md:flex-row justify-center h-full w-full lg:py-10 lg:px-10  lg:gap-14">
-            <div className=" w-3/5 items-center  md:ml-8 lg:translate-y-[-4rem] lg:translate-x-12 flex flex-col justify-center md:w-2/5  md:items-start	mt-10 h-ful md:text-start lg:items-start md:items-startl lg:w-2/5">
+            <div className=" w-3/5 items-center text-center  md:ml-8 lg:translate-y-[-4rem] lg:translate-x-12 flex flex-col justify-center md:w-2/5  md:items-start	mt-10 h-ful md:text-start lg:items-start md:items-startl lg:w-2/5">
               <h1
                 className={`tracking-tighter font-medium text-3xl lg:text-6xl text-normal text-dim-gray mt-12 md:mt-0 md:text-5xl sm:text-4xl`}>
                 Olá, eu sou{" "}
