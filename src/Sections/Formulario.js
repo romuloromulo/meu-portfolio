@@ -12,7 +12,7 @@ function Formulario() {
       transition={{ duration: 0.5 }}>
       <section
         id="Contato"
-        className="container mx-auto flex lg:gap-28 lg:flex-row flex-col justify-center">
+        className="container mx-auto flex lg:gap-28 lg:flex-row flex-col justify-center items-center">
         <FormularioContato />
         <Detalhes />
       </section>

@@ -3,8 +3,10 @@ import Typewriter from "typewriter-effect";
 import NavbarC from "../components/Layout/Navbar";
 import developerDark from "../images/developer-dark.svg";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { AiOutlinePaperClip } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { motion } from "framer-motion";
+import Curriculo from "../assets/RÔMULO-VIANA-CURRÍCULO.pdf";
 
 const socialLinks = [
   {
@@ -33,13 +35,16 @@ function Header() {
       onInit={(typewriter) => {
         typewriter
           .typeString("Desenvolvedor front-end")
-          .pauseFor(2500)
+          .pauseFor(1500)
+          .deleteAll()
+          .typeString("Next.js")
+          .pauseFor(1500)
           .deleteAll()
           .typeString("React JS")
-          .pauseFor(2500)
+          .pauseFor(1500)
           .deleteChars(2)
           .typeString("Native")
-          .pauseFor(2500)
+          .pauseFor(1500)
           .deleteAll()
           .start();
       }}
@@ -72,7 +77,7 @@ function Header() {
                 </p>
               </div>
               <div>
-                <ul className="flex gap-4 sm:gap-2 sm:mt-[-rem]">
+                <ul className="flex  items-center justify-center gap-4 sm:gap-2 sm:mt-[-rem]">
                   {socialLinks.map((link) => (
                     <a
                       href={link.url}
@@ -84,6 +89,17 @@ function Header() {
                       </li>
                     </a>
                   ))}
+                  <a
+                    href={Curriculo}
+                    target="__blank"
+                    key={4}
+                    className="text-dim-gray-100 hover:text-cool-black-300 mt-4 dark:hover:text-indigo-400 cursor-pointer  dark:bg-ternary-dark shadow-sm p-1 duration-300 "
+                    download>
+                    <li className="text-xl sm:text-xl md:text-2xl flex items-center  font-bold">
+                      CV
+                      <AiOutlinePaperClip size={20} />
+                    </li>
+                  </a>
                 </ul>
               </div>
             </div>
