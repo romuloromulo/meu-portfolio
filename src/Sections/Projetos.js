@@ -6,7 +6,7 @@ const Projetos = () => {
     <ProjectsProvider>
       <section id="Portfolio" className="container mx-auto lg:h-auto">
         <ProjectsGrid />
-        <div className="w-2/3 border-b mx-auto border-cool-black-200"></div>
+        <div className="w-[7goit0%] md:w-[95%] border-b mx-auto border-cool-black-200"></div>
       </section>
     </ProjectsProvider>
   );

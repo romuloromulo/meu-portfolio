@@ -53,12 +53,12 @@ const FormularioContato = () => {
   };
 
   return (
-    <div className="lg:w-1/2 sm:w-full  flex justify-center items-center">
-      <div className="leading-loose ">
+    <div className="lg:w-1/2 sm:w-full flex justify-center items-center">
+      <div className="leading-loose">
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left">
+          className="max-w-xl m-4 p-6 sm:p-10 md:p-5 bg-secondary-light dark:bg-secondary-dark rounded-xl shadow-xl text-left">
           <p className="font-general-medium text-dim-gray dark:text-primary-light text-3xl decoration-2 decoration-cool-black-200 mb-8 underline underline-offset-4 ">
             Me manda uma mensagem!
           </p>
@@ -107,7 +107,7 @@ const FormularioContato = () => {
           <div>
             <button
               type="submit"
-              className={`${styleButton} font-general-medium w-40 px-4 py-2.5 text-center font-medium tracking-wider focus:ring-1 rounded-lg mt-6 duration-500`}>
+              className={`${styleButton} font-general-medium lg:w-40 md:w-52 w-full px-4 py-2.5 text-center font-medium tracking-wider focus:ring-1 rounded-lg mt-6 duration-500`}>
               {enviar}
             </button>
           </div>
