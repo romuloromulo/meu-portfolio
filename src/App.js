@@ -9,9 +9,6 @@ import Formulario from "./Sections/Formulario";
 import AppFooter from "./Sections/Footer";
 
 function App() {
-  useEffect(() => {
-    document.title = "Portfólio Rômulo";
-  }, []);
   return (
     <BrowserRouter>
       <div className="bg-cool-black-800">
