@@ -26,7 +26,7 @@ export const projectsData = [
     category: "Web App",
     img: Culturarte,
     description:
-      "Site feito sob encomenda para o projeto cultural Culturarte Maranhão. Fui responsável por todo web-design e desenvolvimento do projeto. Utilizei o framework Next.js para construção, técnicas modernas de carregamento e otimização de imagens e vídeo, Tailwind CSS e Framer Motion para as animações. ",
+      "Desenvolvi um site personalizado para o projeto cultural Culturarte Maranhão, assumindo a responsabilidade pelo design web e pelo desenvolvimento integral do projeto. Utilizei o framework Next.js, incorporando técnicas modernas de carregamento e otimização de recursos, além de integrar elementos visuais por meio do Tailwind CSS e animações dinâmicas com o Framer Motion. O resultado final é um site completamente responsivo, projetado para atender às necessidades do projeto, proporcionando uma experiência de usuário aprimorada.",
     linkSite: "https://www.culturartemaranhao.com/",
     linkGit: "hhttps://github.com/romuloromulo/culturarte",
     ProjectHeader: {
