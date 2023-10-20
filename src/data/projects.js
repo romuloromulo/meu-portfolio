@@ -2,6 +2,7 @@ import TotalPizzaImage from "../images/TOTALPIZZAIMG.png";
 import MapTreino from "../images/MapTreino.png";
 import Forkify from "../images/FORKIFY.png";
 import MyRecipes from "../images/MyRecipe.png";
+import Culturarte from "../images/culturarte.png";
 
 export const projectsData = [
   {
@@ -17,6 +18,21 @@ export const projectsData = [
       title: "TOTALPIZZA - Restaurante e Delivery",
       publishDate: "30 de Agosto de 2023",
       tags: "UI / Frontend",
+    },
+  },
+  {
+    id: 5,
+    title: "CULTURARTE MARANHÃO",
+    category: "Web App",
+    img: Culturarte,
+    description:
+      "Site feito sob encomenda para o projeto cultural Culturarte Maranhão. Fui responsável por todo web-design e desenvolvimento do projeto. Utilizei o framework Next.js para construção, técnicas modernas de carregamento de e otimização de imagens e vídeo, Tailwind CSS e Framer Motion para as animações. ",
+    linkSite: "https://www.culturartemaranhao.com/",
+    linkGit: "hhttps://github.com/romuloromulo/culturarte",
+    ProjectHeader: {
+      title: "CULTURARTE MARANHÃO - Festival de Cultura",
+      publishDate: "20 de outubro de 2023",
+      tags: "UI / Frontend / Web-design",
     },
   },
   {

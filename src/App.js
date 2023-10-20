@@ -1,6 +1,5 @@
 import "./App.css";
 import Header from "./Sections/Header";
-import React, { useEffect } from "react";
 import Sobre from "./Sections/Sobre";
 import Habilidades from "./Sections/Habilidades";
 import Projetos from "./Sections/Projetos";

@@ -27,8 +27,8 @@ const ProjectSingle = ({
         </div>
       </div>
       <div className="details">
-        <div className="center">
-          <div>
+        <div className="center ">
+          <div className="">
             <h1>
               <p className="font-bold text-cool-black-700 text-xl">{title}</p>
               <p className="text-cool-black-500">{category}</p>
