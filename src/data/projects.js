@@ -1,3 +1,31 @@
+import React from "react";
+import {
+  BiLogoReact,
+  BiLogoHtml5,
+  BiLogoJavascript,
+  BiLogoTailwindCss,
+  BiLogoGithub,
+  BiLogoTypescript,
+  BiLogoFirebase,
+  BiLogoMongodb,
+} from "react-icons/bi";
+import { TbBrandOauth } from "react-icons/tb";
+
+import { RiSupabaseLine } from "react-icons/ri";
+import {
+  SiNextdotjs,
+  SiMysql,
+  SiNodedotjs,
+  SiRedux,
+  SiBootstrap,
+  SiCss3,
+  SiCssmodules,
+  SiJest,
+  SiVercel,
+  SiPrisma,
+} from "react-icons/si";
+import { FaCcStripe } from "react-icons/fa";
+
 import TotalPizzaImage from "../images/TOTALPIZZAIMG.png";
 import MapTreino from "../images/MapTreino.png";
 import Forkify from "../images/FORKIFY.png";
@@ -11,9 +39,16 @@ export const projectsData = [
     category: "Web App",
     img: TotalPizzaImage,
     description:
-      "Site de pizzaria fictícia costruido usando Next.js 13 e Supabase como o backend. Oferece um sistema completo de gerenciamento de cardápio, pedidos e login. Possui Stripe integrado para processamento de pagamentos seguros e convenientes. O design, criado com detalhes minuciosos, é estilizado usando o Tailwind CSS. O site é completamente responsivo, garantindo uma ótima experiência em dispositivos móveis e desktops.",
+      "Site de pizzaria fictícia com e-commerce integrado. Além disso, também possui histórico de compras e de pedidos, menu, sistema de pagamentos com Stripe, sistema de login, sign-up e banco de dados com Supabase e Prisma como ORM. Reponsivo em todos os aparelhos.",
     linkSite: "https://totalpizza.vercel.app/",
     linkGit: "https://github.com/romuloromulo/TOTALPIZZA",
+    tecnologias: [
+      <SiNextdotjs size={22} />,
+      <RiSupabaseLine size={22} />,
+      <FaCcStripe size={22} />,
+      <BiLogoTailwindCss size={22} />,
+      <SiPrisma size={22} />,
+    ],
     ProjectHeader: {
       title: "TOTALPIZZA - Restaurante e Delivery",
       publishDate: "30 de Agosto de 2023",

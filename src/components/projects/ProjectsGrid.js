@@ -110,6 +110,7 @@ const ProjectsGrid = () => {
                   key={project.id}
                   linkSite={project.linkSite}
                   linkGit={project.linkGit}
+                  tecnologias={project.tecnologias}
                 />
               ))
             : searchProject
@@ -122,6 +123,7 @@ const ProjectsGrid = () => {
                   key={project.id}
                   linkSite={project.linkSite}
                   linkGit={project.linkGit}
+                  tecnologias={project.tecnologias}
                 />
               ))
             : projects.map((project) => (
@@ -133,6 +135,7 @@ const ProjectsGrid = () => {
                   key={project.id}
                   linkSite={project.linkSite}
                   linkGit={project.linkGit}
+                  tecnologias={project.tecnologias}
                 />
               ))}
         </div>

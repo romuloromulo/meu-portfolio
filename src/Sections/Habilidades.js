@@ -10,6 +10,7 @@ import {
   BiLogoMongodb,
 } from "react-icons/bi";
 import { TbBrandOauth } from "react-icons/tb";
+import { FaCcStripe } from "react-icons/fa";
 
 import { RiSupabaseLine } from "react-icons/ri";
 import {
@@ -18,10 +19,10 @@ import {
   SiNodedotjs,
   SiRedux,
   SiBootstrap,
-  SiCss3,
   SiCssmodules,
   SiJest,
   SiVercel,
+  SiPrisma,
 } from "react-icons/si";
 
 const tecData = [
@@ -40,13 +41,13 @@ const tecData = [
     title: "React Native",
   },
   { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
-  { id: 15, logo: <SiCss3 />, title: "CSS3" },
   { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
   { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
   { id: 21, logo: <SiBootstrap />, title: "Bootstrap" },
 
   { id: 8, logo: <BiLogoGithub />, title: "Github" },
   { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
+  { id: 15, logo: <SiPrisma />, title: "Prisma" },
   {
     id: 9,
     logo: <BiLogoFirebase />,
@@ -57,7 +58,7 @@ const tecData = [
   { id: 13, logo: <SiRedux />, title: "Redux" },
   { id: 16, logo: <SiJest />, title: "Jest" },
   { id: 18, logo: <SiVercel />, title: "Vercel" },
-  { id: 19, logo: <BiLogoMongodb />, title: "MongoDB" },
+  { id: 19, logo: <FaCcStripe />, title: "Stripe" },
   { id: 20, logo: <TbBrandOauth />, title: "OAuth" },
 ];
 

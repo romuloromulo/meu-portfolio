@@ -11,9 +11,10 @@ const ProjectSingle = ({
   tecnologias,
 }) => {
   return (
-    <div className={`card w-2/3 sm:h-[34rem] sm:w-4/5 rounded-md bg-white`}>
+    <div
+      className={`card w-[95%] sm:h-[34rem] sm:w-full rounded-md bg-white relative`}>
       <div className={`image rounded-md`}>
-        <div className="overflow-hidden h-[30%]">
+        <div className="overflow-hidden h-[20%] md:h-[30%]">
           <img src={image} className="h-auto" alt="imagem do projeto" />
         </div>
         <div className="flex flex-col justify-center items-center p-3 sm:mt-3">
@@ -21,38 +22,35 @@ const ProjectSingle = ({
           <p className="font-bold text-cool-black-400 border-b border-cool-black-200 mb-2">
             {category}
           </p>
-          <p className="sm:text-sm text-xs  font-semibold text-cool-black-700">
+          <p className="sm:text-sm  text-cool-black-800 text-sm">
             {description}
           </p>
-        </div>
-      </div>
-      <div className="details">
-        <div className="center ">
-          <div className="">
-            <h1>
-              <p className="font-bold text-cool-black-700 text-xl">{title}</p>
-              <p className="text-cool-black-500">{category}</p>
-            </h1>
-            <div className="flex flex-col items-start justify-center text-cool-black-500 ">
-              {linkSite ? (
-                <a
-                  className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
-                  href={linkSite}
-                  target="_blank"
-                  rel="noreferrer">
-                  <BsArrowUpRight size={15} /> Live
-                </a>
-              ) : (
-                ""
-              )}
+          <div className="flex  text-cool-black-800 text-sm w-full justify-start items-center mt-6 font-semibold">
+            <p>Tecnologias usadas:</p>
+            {tecnologias?.map((tec) => (
+              <div className="ml-2">{tec}</div>
+            ))}
+          </div>
+
+          <div className="flex w-full items-center justify-start gap-4 mt-8 font-semibold bottom-4 left-4 absolute">
+            {linkSite ? (
               <a
-                className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
-                href={linkGit}
+                className="hover:underline text-cool-black-100 hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2 bg-cool-black-800 px-4 py-2 rounded-lg"
+                href={linkSite}
                 target="_blank"
                 rel="noreferrer">
-                <BsGithub size={17} /> Repositório Git
+                Projeto Online <BsArrowUpRight size={15} />
               </a>
-            </div>
+            ) : (
+              ""
+            )}
+            <a
+              className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
+              href={linkGit}
+              target="_blank"
+              rel="noreferrer">
+              <BsGithub size={17} /> Código Fonte
+            </a>
           </div>
         </div>
       </div>
