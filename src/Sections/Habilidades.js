@@ -7,14 +7,28 @@ import {
   BiLogoGithub,
   BiLogoTypescript,
   BiLogoFirebase,
+  BiLogoMongodb,
 } from "react-icons/bi";
+import { TbBrandOauth } from "react-icons/tb";
+
 import { RiSupabaseLine } from "react-icons/ri";
-import { SiNextdotjs } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiMysql,
+  SiNodedotjs,
+  SiRedux,
+  SiBootstrap,
+  SiCss3,
+  SiCssmodules,
+  SiJest,
+  SiVercel,
+} from "react-icons/si";
 
 const tecData = [
   { id: 1, logo: <BiLogoJavascript />, title: "JavaScript" },
+  { id: 7, logo: <BiLogoTypescript />, title: "TypeScript" },
+
   { id: 2, logo: <SiNextdotjs />, title: "Next.js" },
-  { id: 3, logo: <BiLogoHtml5 />, title: "HTML" },
   {
     id: 4,
     logo: <BiLogoReact />,
@@ -25,23 +39,34 @@ const tecData = [
     logo: <BiLogoReact />,
     title: "React Native",
   },
+  { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
+  { id: 15, logo: <SiCss3 />, title: "CSS3" },
+  { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
   { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
-  { id: 7, logo: <BiLogoTypescript />, title: "TypeScript" },
-  { id: 8, logo: <BiLogoGithub />, title: "Git" },
+  { id: 21, logo: <SiBootstrap />, title: "Bootstrap" },
+
+  { id: 8, logo: <BiLogoGithub />, title: "Github" },
+  { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
   {
     id: 9,
     logo: <BiLogoFirebase />,
     title: "Firebase",
   },
-  { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
+  { id: 11, logo: <SiMysql />, title: "MySQL" },
+  { id: 12, logo: <SiNodedotjs />, title: "Node.js" },
+  { id: 13, logo: <SiRedux />, title: "Redux" },
+  { id: 16, logo: <SiJest />, title: "Jest" },
+  { id: 18, logo: <SiVercel />, title: "Vercel" },
+  { id: 19, logo: <BiLogoMongodb />, title: "MongoDB" },
+  { id: 20, logo: <TbBrandOauth />, title: "OAuth" },
 ];
 
 const tecnologias = tecData.map((tecnologia) => (
   <div
-    className="border border-dim-gray-100 rounded-tl-lg rounded-br-lg shadow-sm shadow-dim-gray-100 p-2 w-24 h-24  md:w-28 md:h-32 flex flex-col justify-center items-center gap-1 sm:gap-0 "
+    className="border border-dim-gray-100 rounded-tl-lg rounded-br-lg shadow-sm shadow-dim-gray-100 p-2 w-24 h-24  md:w-28 md:h-32 flex flex-col justify-center items-center gap-1 sm:gap-0 group"
     key={tecnologia.id}>
     <div>
-      <p className="text-dim-gray-100 hover:text-cool-black-300 dark:hover:text-indigo-400  dark:bg-ternary-dark shadow-sm p-1 duration-300 text-3xl sm:text-4xl md:text-5xl">
+      <p className="text-dim-gray-100 group-hover:text-cool-black-300 dark:hover:text-indigo-400  dark:bg-ternary-dark shadow-sm p-1 duration-300 text-3xl sm:text-4xl md:text-5xl">
         {tecnologia.logo}
       </p>
     </div>

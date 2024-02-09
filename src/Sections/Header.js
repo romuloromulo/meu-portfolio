@@ -34,7 +34,7 @@ function Header() {
       options={{ autoStart: true, loop: true }}
       onInit={(typewriter) => {
         typewriter
-          .typeString("Desenvolvedor front-end")
+          .typeString("Desenvolvedor Full Stack")
           .pauseFor(1500)
           .deleteAll()
           .typeString("Next.js")

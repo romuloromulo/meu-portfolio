@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./Sections/Header";
 import Sobre from "./Sections/Sobre";
 import Habilidades from "./Sections/Habilidades";
@@ -10,7 +9,7 @@ import AppFooter from "./Sections/Footer";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-cool-black-800">
+      <div className="bg-black">
         <Header />
         <Sobre />
         <Habilidades />

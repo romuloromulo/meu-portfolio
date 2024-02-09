@@ -11,7 +11,7 @@ const ProjectSingle = ({
   tecnologias,
 }) => {
   return (
-    <div className={`card w-2/3 sm:h-[34rem] sm:w-4/5 rounded-md `}>
+    <div className={`card w-2/3 sm:h-[34rem] sm:w-4/5 rounded-md bg-white`}>
       <div className={`image rounded-md`}>
         <div className="overflow-hidden h-[30%]">
           <img src={image} className="h-auto" alt="imagem do projeto" />
