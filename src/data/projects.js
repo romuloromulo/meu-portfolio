@@ -61,9 +61,15 @@ export const projectsData = [
     category: "Web App",
     img: Culturarte,
     description:
-      "Site personalizado para o projeto cultural Culturarte Maranhão. Assumi a responsabilidade pelo design web e pelo desenvolvimento integral do projeto. Utilizei o framework Next.js, incorporando técnicas modernas de carregamento e otimização de recursos, integrei estilização visuais por meio do Tailwind CSS e animações com o Framer Motion. O resultado é um site responsivo, projetado para atender às necessidades do projeto, proporcionando uma experiência de usuário aprimorada.",
+      "Site personalizado para o projeto cultural Culturarte Maranhão. Assumi a responsabilidade pelo design web e pelo desenvolvimento integral do projeto. Utilizei o framework Next.js, incorporando técnicas modernas de carregamento e otimização de recursos. O resultado é um site responsivo, projetado para atender às necessidades do projeto.",
     linkSite: "https://www.culturartemaranhao.com/",
     linkGit: "hhttps://github.com/romuloromulo/culturarte",
+    tecnologias: [
+      <SiNextdotjs size={22} />,
+      <RiSupabaseLine size={22} />,
+      <BiLogoTailwindCss size={22} />,
+      <SiJest size={22} />,
+    ],
     ProjectHeader: {
       title: "CULTURARTE MARANHÃO - Festival de Cultura",
       publishDate: "20 de outubro de 2023",
@@ -79,6 +85,11 @@ export const projectsData = [
       "Site para catalogar os lugares em que você treinou num mapa interativo, com parâmetros de duração, distância, cadência e ganho de elevação. Apenas clique no mapa no lugar que praticou o treino e adicione as informações. Feito com JavaScript puro e CSS.",
     linkSite: "https://maptreino.vercel.app/",
     linkGit: "https://github.com/romuloromulo/MapTreino",
+    tecnologias: [
+      <BiLogoJavascript size={32} />,
+      <BiLogoHtml5 size={32} />,
+      <SiCssmodules size={32} />,
+    ],
     ProjectHeader: {
       title: "MAPTREINO - mapeie seus treinos",
       publishDate: "30 de Agosto de 2023",
@@ -99,6 +110,11 @@ export const projectsData = [
       publishDate: "30 de Agosto de 2023",
       tags: "UI / Frontend",
     },
+    tecnologias: [
+      <BiLogoJavascript size={32} />,
+      <BiLogoHtml5 size={32} />,
+      <SiCssmodules size={32} />,
+    ],
   },
   {
     id: 4,
@@ -109,6 +125,12 @@ export const projectsData = [
       "Aplicativo de celular de busca de diferentes receitas dividas por categorias, utilizando as ferramentas de redux e react navigation. Feito no React Native usando a plataforma Expo Go.",
     linkSite: null,
     linkGit: "https://github.com/romuloromulo/myrecipes-app",
+    tecnologias: [
+      <BiLogoReact size={32} />,
+      <BiLogoTailwindCss size={32} />,
+      <BiLogoJavascript size={32} />,
+      <SiRedux size={22} />,
+    ],
     ProjectHeader: {
       title: "MyRecipes",
       publishDate: "30 de Agosto de 2023",

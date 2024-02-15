@@ -12,8 +12,8 @@ const ProjectSingle = ({
 }) => {
   return (
     <div
-      className={`card w-[95%] sm:h-[34rem] sm:w-full rounded-md bg-white relative`}>
-      <div className={`rounded-md`}>
+      className={`card w-[95%] h-[34rem] sm:w-full rounded-md bg-white relative `}>
+      <div className={`rounded-md flex flex-col`}>
         <div className="overflow-hidden h-[12rem]">
           <img src={image} className="h-auto" alt="imagem do projeto" />
         </div>
@@ -25,8 +25,9 @@ const ProjectSingle = ({
           <p className="sm:text-sm  text-cool-black-800 text-sm">
             {description}
           </p>
-          <div className="flex  text-cool-black-800 text-sm w-full justify-start items-center mt-6 font-semibold">
-            <p>Tecnologias usadas:</p>
+
+          <div className="flex  text-cool-black-800 text-sm w-full justify-start items-center absolute bottom-20 left-4 font-semibold">
+            <p className="text-md">Tecnologias usadas:</p>
             {tecnologias?.map((tec) => (
               <div className="ml-2">{tec}</div>
             ))}

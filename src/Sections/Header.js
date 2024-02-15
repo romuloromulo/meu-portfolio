@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Typewriter from "typewriter-effect";
 import NavbarC from "../components/Layout/Navbar";
 import developerDark from "../images/developer-dark.svg";

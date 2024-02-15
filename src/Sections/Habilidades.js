@@ -64,10 +64,10 @@ const tecData = [
 
 const tecnologias = tecData.map((tecnologia) => (
   <div
-    className="border border-dim-gray-100 rounded-tl-lg rounded-br-lg shadow-sm shadow-dim-gray-100 p-2 w-24 h-24  md:w-28 md:h-32 flex flex-col justify-center items-center gap-1 sm:gap-0 group"
+    className="border border-dim-gray-100 rounded-tl-lg rounded-br-lg shadow-sm shadow-dim-gray-100 p-2 w-28 h-28 md:w-28 md:h-32 flex flex-col justify-center items-center gap-1 sm:gap-0 group"
     key={tecnologia.id}>
     <div>
-      <p className="text-dim-gray-100 group-hover:text-cool-black-300 dark:hover:text-indigo-400  dark:bg-ternary-dark shadow-sm p-1 duration-300 text-3xl sm:text-4xl md:text-5xl">
+      <p className="text-dim-gray-100 group-hover:text-cool-black-300 dark:hover:text-indigo-400  dark:bg-ternary-dark shadow-sm p-1 duration-300 text-4xl  md:text-5xl">
         {tecnologia.logo}
       </p>
     </div>
