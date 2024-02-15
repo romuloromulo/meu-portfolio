@@ -31,8 +31,31 @@ import MapTreino from "../images/MapTreino.png";
 import Forkify from "../images/FORKIFY.png";
 import MyRecipes from "../images/MyRecipe.png";
 import Culturarte from "../images/culturarte.png";
+import Workspress from "../images/Workspress.png";
 
 export const projectsData = [
+  {
+    id: 6,
+    title: "Workspress",
+    category: "Web App",
+    img: Workspress,
+    description:
+      "SaaS que consiste numa plataforma de áreas de trabalho privadas e compartilhadas, projetada para permitir a edição colaborativa em tempo real entre usuários. Inspirada no Notion, a aplicação utiliza tecnologias de ponta, como socket.io para facilitar a comunicação em tempo real, Realtime Cursors para a visualização simultânea de edições, Stripe para transações seguras, Drizzle ORM para gerenciamento eficiente de dados. Além disso, a integração com o Supabase e Sockets potencializa ainda mais a performance e a colaboração efetiva. Essa SaaS oferece uma solução moderna e eficaz para ambientes de trabalho colaborativos.",
+    linkSite: "https://workspress-app-production.up.railway.app/",
+    linkGit: "https://github.com/romuloromulo/workspress-app",
+    tecnologias: [
+      <SiNextdotjs size={22} />,
+      <BiLogoTypescript size={22} />,
+      <RiSupabaseLine size={22} />,
+      <FaCcStripe size={22} />,
+      <BiLogoTailwindCss size={22} />,
+    ],
+    ProjectHeader: {
+      title: "TOTALPIZZA - Restaurante e Delivery",
+      publishDate: "30 de Agosto de 2023",
+      tags: "UI / Frontend",
+    },
+  },
   {
     id: 1,
     title: "TOTALPIZZA",
@@ -48,6 +71,7 @@ export const projectsData = [
       <FaCcStripe size={22} />,
       <BiLogoTailwindCss size={22} />,
       <SiPrisma size={22} />,
+      <BiLogoJavascript size={22} />,
     ],
     ProjectHeader: {
       title: "TOTALPIZZA - Restaurante e Delivery",

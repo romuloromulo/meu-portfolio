@@ -12,9 +12,9 @@ const ProjectSingle = ({
 }) => {
   return (
     <div
-      className={`card w-[95%] h-[34rem] sm:w-full rounded-md bg-white relative `}>
+      className={`card w-[95%] h-[38rem]  sm:w-full rounded-md bg-white relative `}>
       <div className={`rounded-md flex flex-col`}>
-        <div className="overflow-hidden h-[12rem]">
+        <div className="overflow-hidden h-[12rem] rounded-t-md">
           <img src={image} className="h-auto" alt="imagem do projeto" />
         </div>
         <div className="flex flex-col justify-center items-center p-3 sm:mt-3">
@@ -22,9 +22,9 @@ const ProjectSingle = ({
           <p className="font-bold text-cool-black-400 border-b border-cool-black-200 mb-2">
             {category}
           </p>
-          <p className="sm:text-sm  text-cool-black-800 text-sm">
+          <div className="sm:text-sm text-cool-black-800 text-sm max-h-[12rem] overflow-y-auto p-1">
             {description}
-          </p>
+          </div>
 
           <div className="flex  text-cool-black-800 text-sm w-full justify-start items-center absolute bottom-20 left-4 font-semibold">
             <p className="text-md">Tecnologias usadas:</p>
