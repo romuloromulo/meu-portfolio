@@ -6,7 +6,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { motion } from "framer-motion";
-import Curriculo from "../assets/RÔMULO-VIANA-CURRÍCULO.pdf";
+import Curriculo from "../assets/RÔMULO-VIANA-CV-2024.pdf";
 
 const socialLinks = [
   {
