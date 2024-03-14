@@ -18,9 +18,9 @@ function Sobre() {
               com mais de um ano de experiência em programação e
               desenvolvimento. Trabalho principalmente com tecnologias como{" "}
               <b>
-                Next.js, React, React Native, TypeScript, MySQL, Supabase, HTML,
-                CSS, Tailwind CSS, Bootstrap, SHADCN/UI, Firebase, Google Cloud,
-                Prisma e Drizzle
+                Next.js, React, React Native, TypeScript, MySQL, ChatGPT 3.5
+                Supabase, HTML, CSS, Tailwind CSS, Bootstrap, SHADCN/UI,
+                Firebase, Google Cloud, Prisma e Drizzle
               </b>{" "}
               Busco sempre estudar constantemente e buscar maneiras de aprimorar
               minhas habilidades. No momento, estou me aprofundando em{" "}

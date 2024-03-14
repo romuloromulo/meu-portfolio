@@ -18,7 +18,7 @@ import {
   SiMysql,
   SiNodedotjs,
   SiRedux,
-  SiBootstrap,
+  SiOpenai,
   SiCssmodules,
   SiJest,
   SiVercel,
@@ -43,7 +43,7 @@ const tecData = [
   { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
   { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
   { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
-  { id: 21, logo: <SiBootstrap />, title: "Bootstrap" },
+  { id: 21, logo: <SiOpenai />, title: "ChatGPT" },
 
   { id: 8, logo: <BiLogoGithub />, title: "Github" },
   { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
