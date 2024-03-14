@@ -14,20 +14,23 @@ function Sobre() {
         <div className="w-[90%] flex flex-col justify-center items-center mt-10 group">
           <div className="border p-2 sm:p-8 md:p-10  lg:p-14  rounded-lg border-cool-black-300  ">
             <p className="text-dim-gray md:text-base text-sm ">
-              Olá! Meu nome é <b>Rômulo Viana</b>, sou um desenvolvedor full
-              stack com um pouco mais de um ano de experiência no mundo da
-              programação. Durante minha jornada, mergulhei profundamente em
-              tecnologias modernas, aprimorando minhas habilidades em{" "}
+              Me chamo <b>Rômulo Viana</b>e sou um desenvolvedor full stack com
+              mais de um ano de experiência em programação e desenvolvimento.
+              Trabalho principalmente com tecnologias como
               <b>
                 Next.js, React, React Native,TypeScript, MySQL, Supabase,
                 Firebase, Google Cloud e Tailwind CSS
-              </b>
-              . Busco sempre estudar constantemente e buscar maneiras de
-              aprimorar minhas habilidades. No momento estou me aprofundando em{" "}
-              <b>Node.js</b>. Minha maior motivação é continuar evoluindo até me
-              tornar um desenvolvedor pleno. Além de programador, também sou
-              produtor musical e DJ, o que me torna ainda mais versátil ao achar
-              soluções e dar pontos de vista.
+              </b>{" "}
+              Além disso, sou produtor musical, com foco principalmente em
+              música eletrônica, e DJ. Essa experiência me confere uma visão
+              diversificada e criativa na resolução de problemas e na gestão de
+              tarefas. . Busco sempre estudar constantemente e buscar maneiras
+              de aprimorar minhas habilidades. No momento, estou me aprofundando
+              no <b>Node.js</b> com o uso do framework Express e caminhando para
+              explorar Inteligência Artificial. Além disso, sou produtor
+              musical, com foco principalmente em música eletrônica, e DJ. Essa
+              experiência me confere uma visão diversificada e criativa na
+              resolução de problemas e na gestão de tarefas.
             </p>
           </div>
         </div>
