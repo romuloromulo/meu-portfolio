@@ -22,7 +22,7 @@ function Sobre() {
                 Firebase, Google Cloud e Tailwind CSS
               </b>{" "}
               Busco sempre estudar constantemente e buscar maneiras de aprimorar
-              minhas habilidades. No momento, estou me aprofundando no{" "}
+              minhas habilidades. No momento, estou me aprofundando em{" "}
               <b>Node.js</b> com o uso do framework Express e caminhando para
               explorar Inteligência Artificial. Além disso, sou produtor
               musical, com foco principalmente em música eletrônica, e DJ. Essa
