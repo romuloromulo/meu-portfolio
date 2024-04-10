@@ -41,7 +41,7 @@ export const projectsData = [
     img: Workspress,
     description:
       "SaaS que consiste numa plataforma de áreas de trabalho privadas e compartilhadas, projetada para permitir a edição colaborativa em tempo real entre usuários. Inspirada no Notion, a aplicação utiliza tecnologias de ponta, como socket.io para facilitar a comunicação em tempo real, Realtime Cursors para a visualização simultânea de edições, Stripe para transações seguras, Drizzle ORM para gerenciamento eficiente de dados. Além disso, a integração com o Supabase e Sockets potencializa ainda mais a performance e a colaboração efetiva. Essa SaaS oferece uma solução moderna e eficaz para ambientes de trabalho colaborativos.",
-    linkSite: "https://workspress-app-production.up.railway.app/",
+    linkSite: "https://workspress.vercel.app/",
     linkGit: "https://github.com/romuloromulo/workspress-app",
     tecnologias: [
       <SiNextdotjs size={22} />,
