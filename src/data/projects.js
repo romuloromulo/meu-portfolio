@@ -4,24 +4,15 @@ import {
   BiLogoHtml5,
   BiLogoJavascript,
   BiLogoTailwindCss,
-  BiLogoGithub,
   BiLogoTypescript,
-  BiLogoFirebase,
-  BiLogoMongodb,
 } from "react-icons/bi";
-import { TbBrandOauth } from "react-icons/tb";
 
 import { RiSupabaseLine } from "react-icons/ri";
 import {
   SiNextdotjs,
-  SiMysql,
-  SiNodedotjs,
   SiRedux,
-  SiBootstrap,
-  SiCss3,
   SiCssmodules,
   SiJest,
-  SiVercel,
   SiPrisma,
 } from "react-icons/si";
 import { FaCcStripe } from "react-icons/fa";
