@@ -14,6 +14,7 @@ import {
   SiCssmodules,
   SiJest,
   SiPrisma,
+  SiJavascript,
 } from "react-icons/si";
 import { FaCcStripe } from "react-icons/fa";
 
@@ -23,8 +24,29 @@ import Forkify from "../images/FORKIFY.png";
 import MyRecipes from "../images/MyRecipe.png";
 import Culturarte from "../images/culturarte.png";
 import Workspress from "../images/Workspress.png";
+import Lencois from "../images/lencois.png";
 
 export const projectsData = [
+  {
+    id: 7,
+    title: "Lençois Instrumental",
+    category: "Web App",
+    img: Lencois,
+    description:
+      "Site feito sob encomenda para o Festival Lençóis Instrumental. Totalmente responsivo.",
+    linkSite: "https://www.lencoisinstrumental.com/",
+    linkGit: "https://github.com/romuloromulo/lencoisjazzeblues",
+    tecnologias: [
+      <SiNextdotjs size={22} />,
+      <SiJavascript size={22} />,
+      <BiLogoTailwindCss size={22} />,
+    ],
+    ProjectHeader: {
+      title: "TOTALPIZZA - Restaurante e Delivery",
+      publishDate: "30 de Agosto de 2023",
+      tags: "UI / Frontend",
+    },
+  },
   {
     id: 6,
     title: "Workspress",

@@ -12,9 +12,10 @@ const ProjectSingle = ({
 }) => {
   return (
     <div
-      className={`card w-[95%] h-[38rem]  sm:w-full rounded-md bg-white relative `}>
+      className={`card w-[95%] h-[38rem]  sm:w-full rounded-md bg-white relative `}
+    >
       <div className={`rounded-md flex flex-col`}>
-        <div className="overflow-hidden h-[12rem] rounded-t-md">
+        <div className="overflow-hidden h-[11rem] rounded-t-md">
           <img src={image} className="h-auto" alt="imagem do projeto" />
         </div>
         <div className="flex flex-col justify-center items-center p-3 sm:mt-3">
@@ -39,7 +40,8 @@ const ProjectSingle = ({
                 className="hover:underline text-cool-black-100 hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2 bg-cool-black-800 px-4 py-2 rounded-lg"
                 href={linkSite}
                 target="_blank"
-                rel="noreferrer">
+                rel="noreferrer"
+              >
                 Projeto Online <BsArrowUpRight size={15} />
               </a>
             ) : (
@@ -49,7 +51,8 @@ const ProjectSingle = ({
               className="hover:underline hover:text-cool-black-300 cursor-pointer flex items-center justify-center gap-2"
               href={linkGit}
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               <BsGithub size={17} /> Código Fonte
             </a>
           </div>
