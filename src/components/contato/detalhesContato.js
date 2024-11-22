@@ -8,7 +8,7 @@ const contacts = [
   },
   {
     id: 2,
-    name: "romulrviana@gmail.com",
+    name: "romuloviana.dev@gmail.com",
     icon: <FiMail />,
   },
 ];
@@ -16,6 +16,7 @@ const contacts = [
 const Detalhes = () => {
   return (
     <div className="w-full lg:w-2/5">
+      g
       <div className="lg:text-left max-w-xl px-6">
         <h2 className="font-general-medium text-2xl text-dim-gray dark:text-primary-light md:mt-12 mb-8">
           Outros detalhes

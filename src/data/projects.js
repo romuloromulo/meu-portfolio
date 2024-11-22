@@ -75,7 +75,7 @@ export const projectsData = [
     category: "Web App",
     img: TotalPizzaImage,
     description:
-      "Site de pizzaria fictícia com e-commerce integrado. Além disso, também possui histórico de compras e de pedidos, menu, sistema de pagamentos com Stripe, sistema de login, sign-up e banco de dados com Supabase e Prisma como ORM. Reponsivo em todos os aparelhos.",
+      "Atualmente sem as principais funcionalidades por falta de tempo para manutenção, irá voltar a funcionalidade normal em breve. Site de pizzaria fictícia com e-commerce integrado. Além disso, também possui histórico de compras e de pedidos, menu, sistema de pagamentos com Stripe, sistema de login, sign-up e banco de dados com Supabase e Prisma como ORM. Reponsivo em todos os aparelhos.",
     linkSite: "https://totalpizza.vercel.app/",
     linkGit: "https://github.com/romuloromulo/TOTALPIZZA",
     tecnologias: [

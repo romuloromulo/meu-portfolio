@@ -16,19 +16,21 @@ function Sobre() {
             <p className="text-dim-gray md:text-base text-sm ">
               Olá! Me chamo <b>Rômulo Viana</b>e sou um desenvolvedor full stack
               com mais de um ano de experiência em programação e
-              desenvolvimento. Trabalho principalmente com tecnologias como{" "}
+              desenvolvimento. Atualmente sou estágiario de engenharia de
+              software no Grupo Equatorial, onde trabalho em diversas frentes do
+              projeto, do back-end ao frond-end. Sou estudante de Engenheria de
+              Software na UNDB e faço parte da Software House UNDB. Trabalho
+              principalmente com tecnologias como{" "}
               <b>
-                Next.js, React, React Native, TypeScript, MySQL, ChatGPT 3.5,
-                Supabase, HTML, CSS, Tailwind CSS, Bootstrap, SHADCN/UI,
-                Firebase, Google Cloud, Prisma e Drizzle
+                Node.js, TypeScript, Next.js, React, React Native, MySQL,
+                Python, Azure Devops, Supabase, HTML, CSS, Tailwind CSS,
+                Bootstrap, SHADCN/UI, Firebase, Google Cloud, Prisma e Drizzle.
               </b>{" "}
               Busco sempre estudar constantemente e buscar maneiras de aprimorar
-              minhas habilidades. No momento, estou me aprofundando em{" "}
-              <b>Node.js</b> com o uso do framework Express e caminhando para
-              explorar Inteligência Artificial. Além disso, sou produtor
-              musical, com foco principalmente em música eletrônica, e DJ. Essa
-              experiência me confere uma visão diversificada e criativa na
-              resolução de problemas e na gestão de tarefas.
+              minhas habilidades. Além disso, sou produtor musical, com foco
+              principalmente em música eletrônica, e DJ. Essa experiência me
+              confere uma visão diversificada e criativa na resolução de
+              problemas e na gestão de tarefas.
             </p>
           </div>
         </div>
