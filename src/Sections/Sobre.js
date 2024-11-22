@@ -14,8 +14,8 @@ function Sobre() {
         <div className="w-[90%] flex flex-col justify-center items-center mt-10 group">
           <div className="border p-2 sm:p-8 md:p-10  lg:p-14  rounded-lg border-cool-black-300  ">
             <p className="text-dim-gray md:text-base text-sm ">
-              Olá! Me chamo <b>Rômulo Viana</b>e sou um desenvolvedor full stack
-              com mais de um ano de experiência em programação e
+              Olá! Me chamo <b>Rômulo Viana</b> e sou um desenvolvedor full
+              stack com mais de um ano de experiência em programação e
               desenvolvimento. Atualmente sou estágiario de engenharia de
               software no Grupo Equatorial, onde trabalho em diversas frentes do
               projeto, do back-end ao frond-end. Sou estudante de Engenheria de
