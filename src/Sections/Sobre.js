@@ -16,21 +16,18 @@ function Sobre() {
             <p className="text-dim-gray md:text-base text-sm ">
               Olá! Me chamo <b>Rômulo Viana</b> e sou um desenvolvedor full
               stack com mais de um ano de experiência em programação e
-              desenvolvimento. Atualmente sou estágiario de engenharia de
-              software no Grupo Equatorial, onde trabalho em diversas frentes do
-              projeto, do back-end ao frond-end. Sou estudante de Engenheria de
-              Software na UNDB e faço parte da Software House UNDB. Trabalho
-              principalmente com tecnologias como{" "}
-              <b>
-                Node.js, TypeScript, Next.js, React, React Native, MySQL,
-                Python, Azure Devops, Supabase, HTML, CSS, Tailwind CSS,
-                Bootstrap, SHADCN/UI, Firebase, Google Cloud, Prisma e Drizzle.
-              </b>{" "}
-              Busco sempre estudar constantemente e buscar maneiras de aprimorar
-              minhas habilidades. Além disso, sou produtor musical, com foco
-              principalmente em música eletrônica, e DJ. Essa experiência me
-              confere uma visão diversificada e criativa na resolução de
-              problemas e na gestão de tarefas.
+              desenvolvimento. Atualmente sou desenvolvedor Full Stack
+              estágiario na EQT Lab, laboratório de inovação e pesquisa do Grupo
+              Equatorial, onde trabalho em diversas frentes do desenvolvimento
+              projeto Delfos. Sou estudante de Engenheria de Software na UNDB e
+              faço parte da Software House UNDB desenvolvendo aplicativos
+              mobile. Trabalho principalmente com tecnologias como Node.js,
+              TypeScript, Next.js, React, React Native, MySQL, Python, Azure
+              Devops, Supabase, HTML, CSS, Tailwind CSS, Bootstrap, SHADCN/UI,
+              Firebase, Google Cloud, Prisma e Drizzle. Tenho uma boa
+              comunicação e me considero uma pessoa tranquila e amigável. Busco
+              sempre estudar constantemente e buscar maneiras de aprimorar
+              minhas habilidades.
             </p>
           </div>
         </div>
