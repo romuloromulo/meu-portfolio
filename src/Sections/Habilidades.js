@@ -18,11 +18,11 @@ import {
   SiMysql,
   SiNodedotjs,
   SiRedux,
-  SiOpenai,
   SiCssmodules,
   SiJest,
   SiVercel,
   SiPrisma,
+  SiMongodb,
 } from "react-icons/si";
 
 const tecData = [
@@ -43,7 +43,7 @@ const tecData = [
   { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
   { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
   { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
-  { id: 21, logo: <SiOpenai />, title: "ChatGPT" },
+  { id: 21, logo: <SiMongodb />, title: "MongoDB" },
 
   { id: 8, logo: <BiLogoGithub />, title: "Github" },
   { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
@@ -65,7 +65,8 @@ const tecData = [
 const tecnologias = tecData.map((tecnologia) => (
   <div
     className="border border-dim-gray-100 rounded-tl-lg rounded-br-lg shadow-sm shadow-dim-gray-100 p-2 w-28 h-28 md:w-28 md:h-32 flex flex-col justify-center items-center gap-1 sm:gap-0 group"
-    key={tecnologia.id}>
+    key={tecnologia.id}
+  >
     <div>
       <p className="text-dim-gray-100 group-hover:text-cool-black-300 dark:hover:text-indigo-400  dark:bg-ternary-dark shadow-sm p-1 duration-300 text-4xl  md:text-5xl">
         {tecnologia.logo}
