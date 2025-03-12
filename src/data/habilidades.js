@@ -17,11 +17,11 @@ import {
   SiMysql,
   SiNodedotjs,
   SiRedux,
-  SiOpenai,
   SiCssmodules,
   SiJest,
   SiVercel,
   SiPrisma,
+  SiPython,
 } from "react-icons/si";
 
 export const habilidades = [
@@ -42,7 +42,7 @@ export const habilidades = [
   { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
   { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
   { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
-  { id: 21, logo: <SiOpenai />, title: "ChatGPT" },
+  { id: 21, logo: <SiPython />, title: "Python" },
 
   { id: 8, logo: <BiLogoGithub />, title: "Github" },
   { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },

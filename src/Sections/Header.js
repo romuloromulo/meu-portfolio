@@ -6,7 +6,7 @@ import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { motion } from "framer-motion";
-import Curriculo from "../assets/CV_ROMULO_VIANA.pdf";
+import Curriculo from "../assets/CV_Romulo_Dev_JR.pdf";
 
 const socialLinks = [
   {
@@ -57,15 +57,18 @@ function Header() {
       initial={{ opacity: 0, x: -100 }}
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100 }}
-      transition={{ duration: 1 }}>
+      transition={{ duration: 1 }}
+    >
       <section id="Home">
         <div
-          className={`container mx-auto md:flex-col md:flex lg:items-center`}>
+          className={`container mx-auto md:flex-col md:flex lg:items-center`}
+        >
           <NavbarC />
           <div className="flex flex-col items-center md:flex-row justify-center h-full w-full lg:py-10 lg:px-10  lg:gap-14">
             <div className=" w-3/5 items-center text-center  md:ml-8 lg:translate-y-[-4rem] lg:translate-x-12 flex flex-col justify-center md:w-2/5  md:items-start	mt-10 h-ful md:text-start lg:items-start md:items-startl lg:w-2/5">
               <h1
-                className={`tracking-tighter font-medium text-3xl lg:text-6xl text-normal text-dim-gray mt-12 md:mt-0 md:text-5xl sm:text-4xl`}>
+                className={`tracking-tighter font-medium text-3xl lg:text-6xl text-normal text-dim-gray mt-12 md:mt-0 md:text-5xl sm:text-4xl`}
+              >
                 Olá, eu sou{" "}
                 <span className="font-semibold  transition ease-in-out delay-250 text-cool-black-100 ">
                   Rômulo.
@@ -83,7 +86,8 @@ function Header() {
                       href={link.url}
                       target="__blank"
                       key={link.id}
-                      className="text-dim-gray-100 hover:text-cool-black-300 mt-4 dark:hover:text-indigo-400 cursor-pointer  dark:bg-ternary-dark shadow-sm p-1 duration-300 ">
+                      className="text-dim-gray-100 hover:text-cool-black-300 mt-4 dark:hover:text-indigo-400 cursor-pointer  dark:bg-ternary-dark shadow-sm p-1 duration-300 "
+                    >
                       <li className="text-2xl sm:text-2xl md:text-3xl">
                         {link.icon}
                       </li>
@@ -94,7 +98,8 @@ function Header() {
                     target="__blank"
                     key={4}
                     className="text-dim-gray-100 hover:text-cool-black-300 mt-4 dark:hover:text-indigo-400 cursor-pointer  dark:bg-ternary-dark shadow-sm p-1 duration-300 "
-                    download>
+                    download
+                  >
                     <li className="text-xl sm:text-xl md:text-2xl flex items-center  font-bold">
                       CV
                       <AiOutlinePaperClip size={20} />
