@@ -75,6 +75,7 @@ export const projectsData = [
     title: "Lençois Instrumental",
     category: "Web App",
     img: Lencois,
+    underMaintenance: true,
     description:
       "Site desenvolvido sob encomenda para o Festival Lençóis Instrumental, do design à implementação. Criei toda a identidade visual da página e a construí com Next.js, aproveitando otimização de carregamento de imagens e animações suaves para entregar uma navegação fluida. Estilizado com Tailwind CSS e totalmente responsivo, o site foi pensado para representar a atmosfera do festival em qualquer dispositivo.",
     linkSite: "https://lencoisinstrumental.vercel.app/",
