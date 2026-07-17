@@ -1,62 +1,70 @@
 import React from "react";
 import {
   BiLogoReact,
-  BiLogoHtml5,
   BiLogoJavascript,
   BiLogoTailwindCss,
   BiLogoGithub,
   BiLogoTypescript,
-  BiLogoFirebase,
+  BiLogoDocker,
 } from "react-icons/bi";
-import { TbBrandOauth } from "react-icons/tb";
-import { FaCcStripe } from "react-icons/fa";
 
-import { RiSupabaseLine } from "react-icons/ri";
 import {
   SiNextdotjs,
   SiMysql,
   SiNodedotjs,
-  SiRedux,
-  SiCssmodules,
   SiJest,
-  SiVercel,
   SiPrisma,
   SiPython,
+  SiPostgresql,
+  SiMongodb,
+  SiRedis,
+  SiExpress,
+  SiVitest,
+  SiSwagger,
+  SiQuarkus,
+  SiGit,
+  SiVercel,
+  SiSupabase,
 } from "react-icons/si";
 
+import { FaJava } from "react-icons/fa6";
+import { RiSupabaseLine } from "react-icons/ri";
+
 export const habilidades = [
-  { id: 1, logo: <BiLogoJavascript />, title: "JavaScript" },
-  { id: 7, logo: <BiLogoTypescript />, title: "TypeScript" },
+  { id: 1, logo: <BiLogoTypescript />, title: "TypeScript" },
+  { id: 2, logo: <BiLogoJavascript />, title: "JavaScript" },
 
-  { id: 2, logo: <SiNextdotjs />, title: "Next.js" },
-  {
-    id: 4,
-    logo: <BiLogoReact />,
-    title: "React JS",
-  },
-  {
-    id: 5,
-    logo: <BiLogoReact />,
-    title: "React Native",
-  },
-  { id: 3, logo: <BiLogoHtml5 />, title: "HTML5" },
-  { id: 17, logo: <SiCssmodules />, title: "Css Modules" },
-  { id: 6, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
-  { id: 21, logo: <SiPython />, title: "Python" },
+  { id: 3, logo: <BiLogoReact />, title: "React" },
+  { id: 4, logo: <SiNextdotjs />, title: "Next.js" },
+  { id: 5, logo: <BiLogoReact />, title: "React Native" },
 
-  { id: 8, logo: <BiLogoGithub />, title: "Github" },
-  { id: 10, logo: <RiSupabaseLine />, title: "Supabase" },
-  { id: 15, logo: <SiPrisma />, title: "Prisma" },
-  {
-    id: 9,
-    logo: <BiLogoFirebase />,
-    title: "Firebase",
-  },
+  { id: 6, logo: <SiNodedotjs />, title: "Node.js" },
+  { id: 7, logo: <SiExpress />, title: "Express" },
+
+  { id: 8, logo: <FaJava />, title: "Java" },
+  { id: 9, logo: <SiQuarkus />, title: "Quarkus" },
+
+  { id: 10, logo: <SiPostgresql />, title: "PostgreSQL" },
   { id: 11, logo: <SiMysql />, title: "MySQL" },
-  { id: 12, logo: <SiNodedotjs />, title: "Node.js" },
-  { id: 13, logo: <SiRedux />, title: "Redux" },
-  { id: 16, logo: <SiJest />, title: "Jest" },
-  { id: 18, logo: <SiVercel />, title: "Vercel" },
-  { id: 19, logo: <FaCcStripe />, title: "Stripe" },
-  { id: 20, logo: <TbBrandOauth />, title: "OAuth" },
+  { id: 12, logo: <SiMongodb />, title: "MongoDB" },
+  { id: 13, logo: <SiRedis />, title: "Redis" },
+
+  { id: 14, logo: <BiLogoDocker />, title: "Docker" },
+
+  { id: 15, logo: <SiPrisma />, title: "Prisma" },
+  { id: 16, logo: <RiSupabaseLine />, title: "Supabase" },
+
+  { id: 17, logo: <SiJest />, title: "Jest" },
+  { id: 18, logo: <SiVitest />, title: "Vitest" },
+
+  { id: 19, logo: <SiSwagger />, title: "Swagger" },
+
+  { id: 20, logo: <BiLogoTailwindCss />, title: "Tailwind CSS" },
+
+  { id: 21, logo: <SiGit />, title: "Git" },
+  { id: 22, logo: <BiLogoGithub />, title: "GitHub" },
+
+  { id: 23, logo: <SiPython />, title: "Python" },
+  { id: 24, logo: <SiSupabase />, title: "Supabase" },
+  { id: 25, logo: <SiVercel />, title: "Vercel" },
 ];

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   BiLogoReact,
   BiLogoHtml5,
@@ -33,8 +34,8 @@ export const projectsData = [
     category: "Web App",
     img: Lencois,
     description:
-      "Site feito sob encomenda para o Festival Lençóis Instrumental. Totalmente responsivo.",
-    linkSite: "https://www.lencoisinstrumental.com/",
+      "Site desenvolvido sob encomenda para o Festival Lençóis Instrumental, do design à implementação. Criei toda a identidade visual da página e a construí com Next.js, aproveitando otimização de carregamento de imagens e animações suaves para entregar uma navegação fluida. Estilizado com Tailwind CSS e totalmente responsivo, o site foi pensado para representar a atmosfera do festival em qualquer dispositivo.",
+    linkSite: "https://lencoisinstrumental.vercel.app/",
     linkGit: "https://github.com/romuloromulo/lencoisjazzeblues",
     tecnologias: [
       <SiNextdotjs size={22} />,
@@ -52,6 +53,7 @@ export const projectsData = [
     title: "Workspress",
     category: "Web App",
     img: Workspress,
+    underMaintenance: true,
     description:
       "SaaS que consiste numa plataforma de áreas de trabalho privadas e compartilhadas, projetada para permitir a edição colaborativa em tempo real entre usuários. Inspirada no Notion, a aplicação utiliza tecnologias de ponta, como socket.io para facilitar a comunicação em tempo real, Realtime Cursors para a visualização simultânea de edições, Stripe para transações seguras, Drizzle ORM para gerenciamento eficiente de dados. Além disso, a integração com o Supabase e Sockets potencializa ainda mais a performance e a colaboração efetiva. Essa SaaS oferece uma solução moderna e eficaz para ambientes de trabalho colaborativos.",
     linkSite: "https://workspress.vercel.app/",
@@ -74,6 +76,7 @@ export const projectsData = [
     title: "TOTALPIZZA",
     category: "Web App",
     img: TotalPizzaImage,
+    underMaintenance: true,
     description:
       "Atualmente sem as principais funcionalidades por falta de tempo para manutenção, irá voltar a funcionalidade normal em breve. Site de pizzaria fictícia com e-commerce integrado. Além disso, também possui histórico de compras e de pedidos, menu, sistema de pagamentos com Stripe, sistema de login, sign-up e banco de dados com Supabase e Prisma como ORM. Reponsivo em todos os aparelhos.",
     linkSite: "https://totalpizza.vercel.app/",
@@ -99,8 +102,8 @@ export const projectsData = [
     img: Culturarte,
     description:
       "Site personalizado para o projeto cultural Culturarte Maranhão. Assumi a responsabilidade pelo design web e pelo desenvolvimento integral do projeto. Utilizei o framework Next.js, incorporando técnicas modernas de carregamento e otimização de recursos. O resultado é um site responsivo, projetado para atender às necessidades do projeto.",
-    linkSite: "https://www.culturartemaranhao.com/",
-    linkGit: "hhttps://github.com/romuloromulo/culturarte",
+    linkSite: "https://culturartemaranhao-romuloromulo.vercel.app/",
+    linkGit: "https://github.com/romuloromulo/culturarte",
     tecnologias: [
       <SiNextdotjs size={22} />,
       <RiSupabaseLine size={22} />,

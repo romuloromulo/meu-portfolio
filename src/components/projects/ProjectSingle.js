@@ -9,11 +9,46 @@ const ProjectSingle = ({
   linkSite,
   linkGit,
   tecnologias,
+  underMaintenance,
 }) => {
   return (
     <div
       className={`card w-[95%] h-[38rem]  sm:w-full rounded-md bg-white relative `}
     >
+      {underMaintenance && (
+        <div className="absolute top-2 right-2 z-10 group cursor-help">
+          <span className="bg-cool-black-800 text-white text-xs font-bold px-2 py-1 rounded-md shadow-md">
+            Em manutenção
+          </span>
+          <div
+            className="
+              absolute
+              top-full
+              right-0
+              mt-2
+              w-56
+              bg-cool-black-800
+              text-white
+              text-xs
+              font-normal
+              rounded-md
+              px-3
+              py-2
+              shadow-lg
+              opacity-0
+              invisible
+              group-hover:opacity-100
+              group-hover:visible
+              transition-opacity
+              duration-200
+              z-20
+            "
+          >
+            Este projeto usa serviços do Supabase que pararam de funcionar.
+            Ainda não tive tempo para corrigir, mas voltará em breve.
+          </div>
+        </div>
+      )}
       <div className={`rounded-md flex flex-col`}>
         <div className="overflow-hidden h-[11rem] rounded-t-md">
           <img src={image} className="h-auto" alt="imagem do projeto" />
