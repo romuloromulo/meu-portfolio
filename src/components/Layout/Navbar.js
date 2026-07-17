@@ -14,7 +14,7 @@ function NavbarC() {
   useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 700 && setOpenNav(false)
+      () => window.innerWidth >= 700 && setOpenNav(false),
     );
     console.log(window.innerWidth);
   }, []);
@@ -30,34 +30,39 @@ function NavbarC() {
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-md text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium text-md text-dim-gray hover:text-cool-black-100"
+      >
         <HashLink
           smooth
           to="/#Home"
           id="style-2"
           data-replace=" // home"
-          className={`flex items-center z-10  ${classes.linkNav}`}>
-          // home
+          className={`flex items-center z-10  ${classes.linkNav}`}
+        >
+          {" // home"}
         </HashLink>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium  text-md  text-dim-gray hover:text-cool-black-100">
+        className="p-1 font-medium  text-md  text-dim-gray hover:text-cool-black-100"
+      >
         <HashLink
           smooth
           scroll={(el) => scrollWithOffset(el)}
           to="/#Sobre"
           id="style-2"
           data-replace="// sobre mim"
-          className={`flex items-center ${classes.linkNav}`}>
-          <span>// sobre mim</span>
+          className={`flex items-center ${classes.linkNav}`}
+        >
+          {" // sobre mim"}
         </HashLink>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium text-dim-gray text-md hover:text-cool-black-100">
+        className="p-1 font-medium text-dim-gray text-md hover:text-cool-black-100"
+      >
         <HashLink
           smooth
           scroll={(el) => scrollWithOffset(el)}
@@ -65,21 +70,24 @@ function NavbarC() {
           href="#"
           id="style-2"
           data-replace="// portfólio"
-          className={`flex items-center ${classes.linkNav}`}>
-          // portfólio
+          className={`flex items-center ${classes.linkNav}`}
+        >
+          {" // portfólio"}
         </HashLink>
       </Typography>
       <Typography
         as="li"
         variant="small"
-        className="p-1 font-medium  text-dim-gray text-md hover:text-cool-black-100">
+        className="p-1 font-medium  text-dim-gray text-md hover:text-cool-black-100"
+      >
         <HashLink
           smooth
           to="/#Contato"
           id="style-2"
           data-replace="// contato"
-          className={`flex items-center ${classes.linkNav}`}>
-          // contato
+          className={`flex items-center ${classes.linkNav}`}
+        >
+          {" // contato"}
         </HashLink>
       </Typography>
     </ul>
@@ -95,7 +103,8 @@ function NavbarC() {
             variant="text"
             className=" h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
-            onClick={() => setOpenNav(!openNav)}>
+            onClick={() => setOpenNav(!openNav)}
+          >
             {openNav ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +112,8 @@ function NavbarC() {
                 className="h-6 w-6"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
-                strokeWidth={2}>
+                strokeWidth={2}
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -116,7 +126,8 @@ function NavbarC() {
                 className="h-6 w-6"
                 fill="none"
                 stroke="currentColor"
-                strokeWidth={2}>
+                strokeWidth={2}
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
