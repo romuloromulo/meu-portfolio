@@ -26,8 +26,50 @@ import MyRecipes from "../images/MyRecipe.png";
 import Culturarte from "../images/culturarte.png";
 import Workspress from "../images/Workspress.png";
 import Lencois from "../images/lencois.png";
+import RoletaEqt from "../images/roleta-eqt.png";
+import LencoisJazzBlues from "../images/lencoisjazzeblues.png";
 
 export const projectsData = [
+  {
+    id: 9,
+    title: "Lençois Jazz e Blues Festival",
+    category: "Web App",
+    img: LencoisJazzBlues,
+    description:
+      "Site da edição mais recente do Festival Lençóis Jazz e Blues, desenvolvido em formato single page. Construído com Next.js e TypeScript, com estilização em Tailwind CSS, apresentando a programação e informações do evento de forma direta e responsiva.",
+    linkSite: "https://lencoisjazzebluesfestival.vercel.app/",
+    linkGit: "https://github.com/romuloromulo/festivaljazzeblues2025",
+    tecnologias: [
+      <SiNextdotjs size={22} />,
+      <BiLogoTypescript size={22} />,
+      <BiLogoTailwindCss size={22} />,
+    ],
+    ProjectHeader: {
+      title: "Lençois Jazz e Blues Festival",
+      publishDate: "17 de julho de 2026",
+      tags: "UI / Frontend / Web-design",
+    },
+  },
+  {
+    id: 8,
+    title: "Roleta Sorteio Equatorial",
+    category: "Web App",
+    img: RoletaEqt,
+    description:
+      "Roleta interativa desenvolvida especificamente para uma ação da Equatorial Energia, com animação de rotação e sistema de sorteio que define o item sorteado. Não possui responsividade pois foi desenvolvida para um totem específico. Cada opção possui música e animação próprias, disparadas de acordo com o resultado, criando uma experiência mais lúdica e personalizada. Conta ainda com um painel de edição, permitindo adicionar, editar ou remover os itens da roleta dinamicamente.",
+    linkSite: "https://roleta-eqt.vercel.app/",
+    linkGit: "https://github.com/romuloromulo/roleta-eqt",
+    tecnologias: [
+      <BiLogoReact size={22} />,
+      <BiLogoTypescript size={22} />,
+      <BiLogoTailwindCss size={22} />,
+    ],
+    ProjectHeader: {
+      title: "Roleta Sorteio Equatorial",
+      publishDate: "17 de julho de 2026",
+      tags: "UI / Frontend",
+    },
+  },
   {
     id: 7,
     title: "Lençois Instrumental",
